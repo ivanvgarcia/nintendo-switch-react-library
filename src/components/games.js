@@ -1,9 +1,52 @@
+// const mongoose = require('mongoose');
+
+// const GameSchema = new mongoose.Schema({
+//   title: {
+//       type: String,
+//       required: true,
+//       trim: true,
+//       unique: true
+//   },
+//   img: {
+//       type: String,
+//       required: [true, 'Please upload an image'],
+//       trim: true
+//   },
+//   title: {
+//       type: String,
+//       required: [true, 'Please enter the title'],
+//       trim: true,
+//       unique: true
+//   },
+//   review: {
+//       type: String,
+//       required: [true, 'Please enter a short review']
+//   },
+//   price: {
+//       type: Number,
+//       required: [true, 'How much does it cost?']
+//   },
+//   releaseDate: {
+//       type: Number,
+//       required: [true, 'When was the game released?']
+//   },
+//   meta: {
+//       likes: Number
+//   }
+// });
+
+// const Game = mongoose.model('Game', GameSchema);
+
+// module.exports = {
+//     User
+// };
+
 export const games = [
     {
         id: 1,
         img: 'http://www.nerdbite.com/wp-content/uploads/2017/05/theVideoGameGallery_30259_3840x2160-1.jpg',
         title: 'Zelda: Breath of the Wild',
-        description: 'Breath of the Wild is an action-adventure game set in an open world environment where players are tasked with exploring the kingdom of Hyrule while controlling Link.',
+        description: 'Breath of the Wild is a game that offers ',
         price: 59.99,
         releaseDate: 2016
     }, 
@@ -24,3 +67,4 @@ export const games = [
         releaseDate: 2018
     }, 
 ]
+
